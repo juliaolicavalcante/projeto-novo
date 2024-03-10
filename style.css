@@ -1,15 +1,8 @@
 header{background-color: #081d3f;
        color: bisque ;
+       display: flex;
 }
 .cabeçalho-imagem {
-    width: 5%;
+    width: 8%;
 }
 
-.cabecalho {
-    background-color: #051227;
-    color: rgb(255, 0, 0);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-}
