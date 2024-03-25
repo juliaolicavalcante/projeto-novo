@@ -1,5 +1,9 @@
 header{
     display: flex;
-    color: rgb(240, 73, 7);
+
 }
 
+body{
+    color: brown;
+
+}
