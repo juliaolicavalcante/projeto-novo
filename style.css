@@ -4,3 +4,7 @@ header{
     color: blue;
 }
 
+.cabeçalho{
+    display: flex;
+    align-items: center;
+}
