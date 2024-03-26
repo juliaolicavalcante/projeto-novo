@@ -5,7 +5,7 @@ header{
 }
 
 .cabeçalho{
-    display: grid;
+    display:inline-flex;
     align-items: center;
     padding: 50px 100px;
     margin: 100 100px;
