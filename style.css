@@ -11,10 +11,13 @@ header{
 }
 
 img{ 
-    width: 15%;
+    width: 7%;
 }
 
 footer{
     background-color: black;
     color: aliceblue;
+}
+.foto-equipe{
+    width: 10%;
 }
