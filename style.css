@@ -1,7 +1,75 @@
+* {
+    margin: 0;
+}
 
+body {
+    background-color: #8FCA82;
+    font-family: "Roboto", sans-serif
+}
 
-.container {
+.cabeçalho-menu {
+    background-color: #679B5B;
+    display: flex;
+    position: relative;
+}
+
+.tudo-lista {
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
+.lista-menu-link {
+    text-decoration: none;
+    color: white;
+}
+
+.udo-lista {
+    display: none;
+}
+
+.udo-lista:checked~.tudo-lista {
+    display: block;
+}
+
+.lista-menu {
+    background-color: #679B5B;
+    padding: 1em;
+}
+
+.imagem-desmatamento {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-top: 0;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.primeiro-texto {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 23px;
     text-align: center;
+}
+
+.disso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .retangulo-grande {
@@ -45,4 +113,49 @@
     height: 166px;
     background-color: #939393;
     margin-bottom: 40px;
+}
+
+footer {
+    background-color: #679B5B;
+}
+
+.rodape {
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+    .ellipse {
+        width: 55px;
+        height: 55px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 5px;
+    }
+
+    .titulo {
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .bnt-menu i {
+        color: #FFFFFF;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .segundo-texto {
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    .container {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
 }
