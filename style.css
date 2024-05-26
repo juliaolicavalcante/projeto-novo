@@ -48,6 +48,7 @@ body {
 }
 
 .imagem-desmatamento {
+
     display: block;
     margin: 0 auto;
     margin-top: 10px;
@@ -151,6 +152,10 @@ footer {
         text-align: center;
     }
 
+    ..imagem-desmatamento{
+        width: 285px;
+        height: 160px;
+    }
 
     .container {
         text-align: center;
