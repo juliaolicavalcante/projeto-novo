@@ -9,7 +9,7 @@ body {
 header{
     background-color: #679B5B;
         display: grid;
-    grid-template-columns: 3% 50% 47%;
+    grid-template-columns: 3% 97%;
 }
 
 .cabeçalho{
