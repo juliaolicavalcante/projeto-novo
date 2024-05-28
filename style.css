@@ -102,9 +102,11 @@ header{
     text-align: center;
     font-size: 16px;
     font-weight: 600;
+    margin: 20px 5px;
 }
 
 .titulo-poluiçao{
     font-size: 22px;
     font-weight: 700;
+    margin: 10px 5px;
 }
