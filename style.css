@@ -100,4 +100,11 @@ header{
 
 .poluiçao{
     text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.titulo-poluiçao{
+    font-size: 22px;
+    font-weight: 700;
 }
