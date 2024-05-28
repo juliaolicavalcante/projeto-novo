@@ -16,3 +16,8 @@ header{
     display: flex;
     align-items: center;
 }
+
+.ellipse{
+    width: 33px;
+    height: 33px;
+}
