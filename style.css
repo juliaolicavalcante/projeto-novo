@@ -110,3 +110,11 @@ header{
     font-weight: 700;
     margin: 10px 5px;
 }
+
+.linha{
+    width: 75%;
+    border-bottom: 2px solid #000000;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
