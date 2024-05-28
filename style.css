@@ -59,3 +59,8 @@ header{
 .udo-lista {
     display: none;
 }
+
+.udo-lista:checked~.tudo-lista {
+    display: block;
+}
+
