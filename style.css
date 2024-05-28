@@ -64,3 +64,8 @@ header{
     display: block;
 }
 
+.lista-menu {
+    background-color: #679B5B;
+    padding: 0.4em;
+}
+
