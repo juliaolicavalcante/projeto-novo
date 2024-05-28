@@ -111,6 +111,34 @@ header{
     margin: 10px 5px;
 }
 
+.quadrado-grande{
+    width: 396px;
+    height: 752px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.varios-retangulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes-poluiçao{
+    width: 315px;
+    height: 82px;
+    background-color: #4BBC49;
+    color: #fff;
+    margin-top: 29px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
 .linha{
     width: 75%;
     border-bottom: 2px solid #000000;
