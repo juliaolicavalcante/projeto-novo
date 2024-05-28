@@ -20,6 +20,8 @@ header{
 .ellipse{
     width: 55px;
     height: 55px;
+    margin-right: 5px;
+    padding: 15px 0;
 }
 
 .botoes{
