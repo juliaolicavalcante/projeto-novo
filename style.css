@@ -146,3 +146,16 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.botoes-poluiçao:hover{
+    background-color: #386837;
+    color: #000000;
+    transition: 1s;
+    box-shadow: #386837 0px 7px 29px 0px;
+}
+
+.retangulo-titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
