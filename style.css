@@ -33,3 +33,29 @@ header{
     font-size: 20px;
     font-weight: 600;
 }
+
+.cabeçalho-menu {
+    position: relative;
+}
+
+.tudo-lista {
+    display: none;
+    position: absolute; 
+    list-style: none;
+    top: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.lista-menu-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.udo-lista {
+    display: none;
+}
