@@ -53,7 +53,7 @@ header{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding-left: 40px;
+    padding-left: 5px;
 }
 
 .udo-lista {
@@ -66,6 +66,6 @@ header{
 
 .lista-menu {
     background-color: #679B5B;
-    padding-left: 5px;
+    padding: 1em;
 }
 
