@@ -139,13 +139,6 @@ header{
     cursor: pointer;
 }
 
-.linha{
-    width: 75%;
-    border-bottom: 2px solid #000000;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 .botoes-poluiçao:hover{
     background-color: #386837;
@@ -158,4 +151,63 @@ header{
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
+}
+
+.disso {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
+.retangulo-grande {
+    width: 300px;
+    height: 566px;
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.retangulo-pequeno {
+    width: 228px;
+    height: 66px;
+    background-color: #4BBC49;
+    font-size: 23px;
+    color: #fff;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0;
+    margin-top: 20px;
+    border: none;
+}
+
+.baixo {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrados-baixo {
+    width: 214px;
+    height: 166px;
+    background-color: #939393;
+    margin-bottom: 40px;
+}
+
+.linha{
+    width: 75%;
+    border-bottom: 2px solid #000000;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
