@@ -21,3 +21,7 @@ header{
     width: 33px;
     height: 33px;
 }
+
+.botoes{
+    display: none;
+}
