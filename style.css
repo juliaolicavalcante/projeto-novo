@@ -4,18 +4,47 @@
 
 body {
     background-color: #8FCA82;
-    font-family: "Roboto", sans-serif
+    font-family: 'Courier New', Courier, monospace
+}
+
+header {
+    background-color: #679B5B;
+    display: grid;
+    grid-template-columns: 3% 50% 47%;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
+.ellipse {
+    width: 13%;
+    margin-right: 5px;
+    padding: 15px 0;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.botoes {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    align-items: center;
+    gap: 50px;
 }
 
 .cabeçalho-menu {
-    background-color: #679B5B;
-    display: flex;
     position: relative;
 }
 
 .tudo-lista {
     display: none;
-    position: absolute;
+    position: absolute; 
     list-style: none;
     top: 100%;
     width: 50%;
@@ -24,18 +53,24 @@ body {
     text-decoration: none;
 }
 
-.cabeçalho {
-    display: flex;
-    align-items: center;
-}
-
 .lista-menu-link {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    padding-left: 40px;
 }
 
 .udo-lista {
     display: none;
+}
+
+.bnt-menu {
+    color: #fff;
+    font-size: 35px;
+}
+
+.bnt-menu:active{
+    color: #000000;
 }
 
 .udo-lista:checked~.tudo-lista {
@@ -44,32 +79,43 @@ body {
 
 .lista-menu {
     background-color: #679B5B;
-    padding: 1em;
+    padding: 0.4em;
 }
 
-.imagem-desmatamento {
-    display: block;
-    margin: 0 auto;
-    margin-top: 10px;
+.primeiro-texto{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 10px 200px ;
+}
+
+.segundo-texto{
+    text-align: center;
+    font-size: 23px;
+    margin: 35px 15px 15px 15px;
+    font-weight: 600;
+}
+
+.texto-imagem{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem-desmatamento{
+    width: 90%; 
+    margin: 8px 15px;
     border-top: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 20px solid black;
     border-right: 10px solid black;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 25px;
     margin-bottom: 10px;
 }
-
-.primeiro-texto {
-    margin: 10px;
-    font-weight: bold;
-    font-size: 23px;
-    text-align: center;
-}
-
 .disso {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
 }
 
 .retangulo-grande {
@@ -101,6 +147,7 @@ body {
     margin-bottom: 40px;
     padding: 0;
     margin-top: 20px;
+    border: none;
 }
 
 .baixo {
@@ -115,8 +162,77 @@ body {
     margin-bottom: 40px;
 }
 
+.seçao-poluiçao{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}   
+
+.quadrado-grande{
+    width: 396px;
+    height: 752px;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.varios-retangulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes-poluiçao{
+    width: 315px;
+    height: 82px;
+    background-color: #4BBC49;
+    color: #fff;
+    margin-top: 29px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botoes-poluiçao:hover{
+    background-color: #386837;
+    color: #000000;
+    transition: 1s;
+    box-shadow: #386837 0px 7px 29px 0px;
+}
+
+.retangulo-titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.poluiçao{
+font-size: 23px;
+font-weight: 600;
+text-align: center;
+margin: 0 30px;
+}
+
+.titulo-poluiçao{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 35px;
+}
+
+.linha{
+    width: 75%;
+    border-bottom: 2px solid #000000;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 footer {
     background-color: #679B5B;
+    color: #fff;
+    font-size: 19px;
 }
 
 .rodape {
@@ -124,8 +240,22 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
-
+    
+    header{
+        display:flex
+    }
+    .botoes{
+        display: none;
+    }
+    .primeiro-texto{
+        font-size: 23px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .cabeçalho {
+        display: flex;
+        align-items: center;
+    }
 
     .ellipse {
         width: 55px;
@@ -151,15 +281,10 @@ footer {
         text-align: center;
     }
 
-    .imagem-desmatamento{
-        width: 285px;
-        height: 160px;
-    }
 
     .container {
         text-align: center;
         margin-bottom: 10px;
     }
-
 
 }
