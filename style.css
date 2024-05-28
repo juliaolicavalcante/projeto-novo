@@ -8,5 +8,11 @@ body {
 
 header{
     background-color: #679B5B;
-    font-family: 'Courier New', Courier, monospace;
+        display: grid;
+    grid-template-columns: 3% 50% 47%;
+}
+
+.cabeçalho-menu{
+    display: flex;
+    align-items: center;
 }
