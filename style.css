@@ -1,35 +1,37 @@
-@import url(/min-1024px.css);
+@import url(/styles/tablet.css);
 
-*{ margin: 0;}
+* {
+    margin: 0;
+}
 
 body {
     background-color: #8FCA82;
     font-family: 'Courier New', Courier, monospace
 }
 
-header{
+header {
     background-color: #679B5B;
-        display: grid;
+    display: grid;
     grid-template-columns: 3% 97%;
 }
 
-.cabeçalho{
+.cabeçalho {
     display: flex;
     align-items: center;
 }
 
-.ellipse{
+.ellipse {
     width: 55px;
     height: 55px;
     margin-right: 5px;
     padding: 15px 0;
 }
 
-.botoes{
+.botoes {
     display: none;
 }
 
-.titulo{
+.titulo {
     color: #FFFF;
     font-size: 20px;
     font-weight: 900;
@@ -41,7 +43,7 @@ header{
 
 .tudo-lista {
     display: none;
-    position: absolute; 
+    position: absolute;
     list-style: none;
     top: 100%;
     width: 50%;
@@ -70,49 +72,57 @@ header{
     padding: 1em;
 }
 
-.bnt-menu{
+.bnt-menu {
     color: #FFFF;
     font-size: 20px;
 }
 
-.primeiro-texto{
+.primeiro-texto {
     font-size: 23px;
     text-align: center;
-    font-weight: 800;
+    font-weight: 600;
     margin-top: 7px;
 }
 
-.segundo-texto{
-    font-size: 16px;
+.segundo-texto {
+    font-size: 20px;
     text-align: center;
     font-weight: 700;
 }
 
-.imagem-desmatamento{
+.terceiro-texto {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.imagem-desmatamento {
+    display: block;
     width: 90%;
     margin: 8px 15px;
     border-top: 0;
     border-bottom: 15px solid black;
     border-right: 10px solid black;
     background-color: black;
-    border-radius: 25px;
-    margin-bottom: 10px;
+    border-radius: 27px;
+    margin: 20px auto;
+    margin-bottom: 20px;
 }
 
-.poluiçao{
+.poluiçao {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
     margin: 20px 5px;
 }
 
-.titulo-poluiçao{
+.titulo-poluiçao {
     font-size: 22px;
     font-weight: 700;
     margin: 10px 5px;
 }
 
-.quadrado-grande{
+.quadrado-grande {
     width: 300px;
     height: 750px;
     background-color: #D9D9D9;
@@ -123,13 +133,13 @@ header{
     margin-top: 25px;
 }
 
-.varios-retangulos{
+.varios-retangulos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.botoes-poluiçao{
+.botoes-poluiçao {
     width: 280px;
     height: 80px;
     background-color: #4BBC49;
@@ -141,14 +151,14 @@ header{
 }
 
 
-.botoes-poluiçao:hover{
+.botoes-poluiçao:hover {
     background-color: #386837;
     color: #000000;
     transition: 1s;
     box-shadow: #386837 0px 7px 29px 0px;
 }
 
-.retangulo-titulo{
+.retangulo-titulo {
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
@@ -206,21 +216,263 @@ header{
     background-color: #939393;
     margin-bottom: 40px;
 }
+.seçao-poluiçao{
+    background-color: #4B974A;
+    display: flex;
+    flex-direction: column;
+}
 
-.linha{
+.linha-1 {
     width: 75%;
-    border-bottom: 2px solid #000000;
+    border-bottom: 3px solid #000000;
+    margin: auto;
+    
+}
+.linha-2 {
+    width: 75%;
+    border-bottom: 3px solid #000000;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.botao {
+    width: 232px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border: none;
+    padding: 15px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
 
-footer{
+
+footer {
     background-color: #679B5B;
     color: #fff;
     padding: 15px 0;
     text-align: center;
 }
-@media screen and (min-width: 1024px){
 
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+    .cabeçalho-menu {
+        display: grid;
+        grid-template-columns: 3% 67% 30%;
+
+    }
+
+    .titulo {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .ellipse {
+        width: 88px;
+        height: 88px;
+        padding: 15px;
+    }
+
+    .imagem-texto {
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    .imagem-desmatamento {
+        width: 90%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .primeiro-texto {
+        font-size: 36px;
+        margin: 15px 0;
+    }
+
+    .segundo-texto {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 15px;
+    }
+
+    .terceiro-texto {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .seçao-poluiçao {
+        display: flex;
+        flex-direction: column;
+        background-color: #4B974A;
+    }
+
+    .poluiçao-total {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+
+    .texto-poluiçao {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .titulo-poluiçao {
+        font-size: 25px;
+        margin-top: 10px;
+        font-weight: 900;
+    }
+
+    .quadrado-grande {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .informaçoes {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+
+    .informaçoes-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+
+    .disso {
+        display: grid;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: grid;
+        grid-template-columns: 3% 55% 42%;
+    }
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .bnt-menu {
+        font-size: 35px;
+    }
+
+    .ellipse {
+        width: 80px;
+        height: 80px;
+    }
+
+    .imagem-texto {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .titulo {
+        font-size: 50px;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+
+    .primeiro-texto {
+        font-size: 40px;
+        font-weight: 900;
+        margin: 20px 40px;
+    }
+
+    .segundo-texto {
+        font-size: 50px;
+        font-weight: 800;
+        margin: 10px 0;
+    }
+
+    .terceiro-texto {
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .imagem-desmatamento {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .seçao-poluiçao {
+        background-color: #4B974A;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .poluiçao-total{
+        display: grid;
+        grid-template-columns: 65% 35%;
+   
+    }
+
+    .titulo-poluiçao {
+        font-size: 40px;
+        font-weight: 900;
+        margin-top: 20px;
+    }
+
+    .texto-poluiçao {
+        font-size: 30px;
+        margin: 5px 15px;
+        margin-top: 25px;
+    }
+
+    .quadrado-grande {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .disso {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        justify-items: center;
+    }
+
+    .quadrado-grande {
+        width: 396px;
+        height: 752px;
+        background-color: #D9D9D9;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .botoes-poluiçao {
+        width: 315px;
+        height: 82px;
+        font-size: 25px;
+        background-color: #4BBC49;
+        color: #fff;
+        margin-top: 29px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .texto-imagem{
+        margin-bottom: 30px;
+    }
 }
