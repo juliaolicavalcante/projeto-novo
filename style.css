@@ -286,9 +286,7 @@ footer {
 
     .imagem-desmatamento {
         width: 90%;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+        align-items: center;
     }
 
     .primeiro-texto {
@@ -337,20 +335,17 @@ footer {
         transform: translateY(-50%);
     }
 
-    .informaçoes {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        justify-items: center;
-    }
-
-    .informaçoes-2 {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        justify-items: center;
-    }
-
     .disso {
-        display: grid;
+        display: flex;
+        margin: 50px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .bnt-menu{
+        font-size: 30px;
+        color: #fff;
     }
 }
 
@@ -402,15 +397,10 @@ footer {
     .terceiro-texto {
         text-align: center;
         font-size: 30px;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
     }
 
     .imagem-desmatamento {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+        
     }
 
     .seçao-poluiçao {
