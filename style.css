@@ -279,15 +279,12 @@ footer {
         padding: 15px;
     }
 
-    .imagem-texto {
-        display: grid;
-        grid-template-columns: 40% 60%;
-    }
+   
 
     .imagem-desmatamento {
-        width: 90%;
-        align-items: center;
-    }
+        float: left;
+        width: 50%;
+     }
 
     .primeiro-texto {
         font-size: 36px;
@@ -376,8 +373,7 @@ footer {
     }
     
     .imagem-desmatamento {
-       float: left;
-       width: 50%;
+        width: 80%;
     }
 
     .titulo {
