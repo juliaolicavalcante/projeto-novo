@@ -374,6 +374,10 @@ footer {
     .imagem-texto {
         display: flex;
     }
+    
+    .imagem-desmatamento {
+        width: 80%;
+    }
 
     .titulo {
         font-size: 50px;
@@ -398,9 +402,7 @@ footer {
         font-size: 30px;
     }
 
-    .imagem-desmatamento {
-        
-    }
+
 
     .seçao-poluiçao {
         background-color: #4B974A;
