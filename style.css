@@ -373,6 +373,9 @@ footer {
         height: 80px;
     }
 
+    .imagem-texto {
+        margin: 25px;
+    }
 
     .imagem-desmatamento {
         width: 45%;
