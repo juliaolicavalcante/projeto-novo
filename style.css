@@ -216,7 +216,8 @@ header {
     background-color: #939393;
     margin-bottom: 40px;
 }
-.seçao-poluiçao{
+
+.seçao-poluiçao {
     background-color: #4B974A;
     display: flex;
     flex-direction: column;
@@ -226,8 +227,9 @@ header {
     width: 75%;
     border-bottom: 3px solid #000000;
     margin: auto;
-    
+
 }
+
 .linha-2 {
     width: 75%;
     border-bottom: 3px solid #000000;
@@ -235,6 +237,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .botao {
     width: 232px;
     height: 40px;
@@ -279,12 +282,14 @@ footer {
         padding: 15px;
     }
 
-   
+    .imagem-texto {
+        margin: 25px;
+    }
 
     .imagem-desmatamento {
         float: left;
-        width: 50%;
-     }
+        width: 33%;
+    }
 
     .primeiro-texto {
         font-size: 36px;
@@ -340,7 +345,7 @@ footer {
         flex-direction: row;
     }
 
-    .bnt-menu{
+    .bnt-menu {
         font-size: 30px;
         color: #fff;
     }
@@ -371,7 +376,7 @@ footer {
     .imagem-texto {
         display: flex;
     }
-    
+
     .imagem-desmatamento {
         width: 80%;
     }
@@ -407,10 +412,10 @@ footer {
         flex-direction: column;
     }
 
-    .poluiçao-total{
+    .poluiçao-total {
         display: grid;
         grid-template-columns: 65% 35%;
-   
+
     }
 
     .titulo-poluiçao {
@@ -460,7 +465,7 @@ footer {
         cursor: pointer;
     }
 
-    .texto-imagem{
+    .texto-imagem {
         margin-bottom: 30px;
     }
 }
