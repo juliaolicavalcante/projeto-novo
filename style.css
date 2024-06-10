@@ -377,6 +377,7 @@ footer {
     
     .imagem-desmatamento {
        float: left;
+       width: 50%;
     }
 
     .titulo {
