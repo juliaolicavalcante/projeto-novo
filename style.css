@@ -123,7 +123,7 @@ header {
 }
 
 .quadrado-grande {
-    width: 300px;
+    width: 96%;
     height: 750px;
     background-color: #D9D9D9;
     display: flex;
@@ -172,7 +172,7 @@ header {
 }
 
 .retangulo-grande {
-    width: 300px;
+    width: 96px;
     height: 566px;
     background-color: #D9D9D9;
     border-radius: 30px;
@@ -189,7 +189,7 @@ header {
 }
 
 .retangulo-pequeno {
-    width: 228px;
+    width: 111%;
     height: 66px;
     background-color: #4BBC49;
     font-size: 23px;
