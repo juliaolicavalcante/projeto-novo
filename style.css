@@ -261,6 +261,11 @@ footer {
     background-size: 100%;
 }
 
+.container a{
+    color: #386837;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 750px) and (max-width: 1023px) {
     .cabeçalho-menu {
         display: grid;
