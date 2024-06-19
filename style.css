@@ -1,7 +1,6 @@
-@import url(/styles/tablet.css);
-
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
 header {
     background-color: #679B5B;
     display: grid;
-    grid-template-columns: 3% 97%;
+    grid-template-columns: 5% 95%;
 }
 
 .cabeçalho {
@@ -33,7 +32,7 @@ header {
 
 .titulo {
     color: #FFFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
 }
 
@@ -74,26 +73,19 @@ header {
 
 .bnt-menu {
     color: #FFFF;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .primeiro-texto {
-    font-size: 23px;
+    font-size: 30px;
     text-align: center;
-    font-weight: 600;
-    margin-top: 7px;
+    margin: 10px;
 }
 
 .segundo-texto {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    font-weight: 700;
-}
-
-.terceiro-texto {
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
+    margin: 10px;
 }
 
 .imagem-desmatamento {
@@ -109,38 +101,59 @@ header {
     margin-bottom: 20px;
 }
 
-.poluiçao {
+.terceiro-texto {
+    font-size: 22px;
     text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 20px 5px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.linha-1 {
+    width: 75%;
+    border-bottom: 3px solid #000000;
+    margin: auto;
+}
+
+.poluiçao-total {
+    background-color: #476241;
+    text-align: center;
 }
 
 .titulo-poluiçao {
     font-size: 22px;
     font-weight: 700;
     margin: 10px 5px;
+    color: #d6d6d6;
+}
+
+.texto-poluiçao {
+    color: #d6d6d6;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 10px;
 }
 
 .quadrado-grande {
-    width: 96%;
-    height: 750px;
-    background-color: #D9D9D9;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    background-color: #D9D9D9;
+    width: 279px;
+    padding-bottom: 20px;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
-.varios-retangulos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.retangulo-titulo {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .botoes-poluiçao {
-    width: 280px;
+    width: 80%;
     height: 80px;
     background-color: #4BBC49;
     color: #fff;
@@ -148,53 +161,39 @@ header {
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    font-size: 18px;
 }
 
 
 .botoes-poluiçao:hover {
-    background-color: #386837;
+    background-color: #38a836;
     color: #000000;
-    transition: 1s;
-    box-shadow: #386837 0px 7px 29px 0px;
+    transition: 0.7s;
 }
 
-.retangulo-titulo {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20px;
+.linha-2 {
+    width: 75%;
+    border-bottom: 3px solid #000000;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-.disso {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px 0;
-}
-
-.retangulo-grande {
-    width: 111%;
-    height: 566px;
+.retangulo-total {
     background-color: #D9D9D9;
+    width: 250px;
+    margin: auto;
+    padding: 20px 0;
     border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.coluna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: 30px;
 }
 
 .retangulo-pequeno {
-    width: 190px;
+    width: 80%;
     height: 66px;
     background-color: #4BBC49;
     font-size: 23px;
     color: #fff;
-    border-radius: 300px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,84 +202,81 @@ header {
     margin-top: 20px;
     border: none;
     cursor: pointer;
+    margin: auto;
 }
 
-.baixo {
+.retangulos {
     display: flex;
     flex-direction: column;
 }
 
-.quadrados-baixo {
+.informaçao {
+    background-color: #939393;
     width: 214px;
     height: 166px;
-    background-color: #939393;
-    margin-bottom: 40px;
-}
-
-.seçao-poluiçao {
-    background-color: #4B974A;
-    display: flex;
-    flex-direction: column;
-}
-
-.linha-1 {
-    width: 75%;
-    border-bottom: 3px solid #000000;
     margin: auto;
-
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 20px;
 }
 
-.linha-2 {
-    width: 75%;
-    border-bottom: 3px solid #000000;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.campanha-1{
+    background-image: url(/Rectangle\ 33.png);
 }
 
-.botao {
-    width: 232px;
-    height: 40px;
-    background-color: #D9D9D9;
-    border: none;
-    padding: 15px 0;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-
-footer {
-    background-color: #679B5B;
-    color: #fff;
-    padding: 15px 0;
-    text-align: center;
-}
-
-.camp-1{
-    background-image: url(./imagens/Rectangle\ 33.png);
-    background-size: 100%;
-}
-
-.container a{
-    color: #386837;
+.retangulo-total a{
+    color: #FFFF;
     text-decoration: none;
 }
 
-.Poluição-campanha{
+.poluiçao-campanha{
     width: 100%;
     height: 100%;
+    display: grid;
+    align-items: end;
 }
 
+.texto-campanha{
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.campanha-2{
+    background-image: url(/Rectangle\ 31.png);
+}
+
+.dicas-1{
+    background-image: url(/Rectangle\ 29.png);
+}
+
+.dicas-2{
+    background-image: url(/Rectangle\ 82.png);
+}
+
+.relatos-1{
+    background-image: url(/Rectangle\ 28.png);
+}
+
+.relatos-2{
+    background-image: url(/Rectangle\ 36.png);
+}
+
+.noticia-1{
+    background-image: url(/Rectangle\ 35.png);
+}
+
+.noticia-2{
+    background-image: url(/Rectangle\ 32.png);
+}
 @media screen and (min-width: 750px) and (max-width: 1023px) {
     .cabeçalho-menu {
         display: grid;
-        grid-template-columns: 3% 67% 30%;
-
-    }
-
-    .titulo {
-        font-size: 30px;
-        font-weight: 800;
+        grid-template-columns: 5% 60% 35%;
     }
 
     .botoes {
@@ -291,78 +287,58 @@ footer {
         gap: 10px;
     }
 
-    .ellipse {
-        width: 88px;
-        height: 88px;
-        padding: 15px;
+    .botao {
+        width: 232px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border: none;
+        padding: 15px 0;
+        border-radius: 15px;
+        cursor: pointer;
     }
 
-    .imagem-texto {
+    .ellipse {
+        width: 69px;
+        height: 69px;
+        padding: 20px 0px;
+    }
+
+    .bnt-menu {
+        font-size: 30px;
+    }
+
+    .texto-imagem {
         margin: 25px;
     }
 
     .imagem-desmatamento {
         float: left;
-        width: 33%;
+        width: 55%;
     }
 
-    .primeiro-texto {
-        font-size: 36px;
-        margin: 15px 0;
-    }
-
-    .segundo-texto {
-        font-size: 30px;
-        text-align: center;
-        margin: 0 15px;
-    }
-
-    .terceiro-texto {
-        font-size: 20px;
-        font-weight: 600;
-        margin: 15px;
-        text-align: center;
-    }
-
-    .seçao-poluiçao {
-        display: flex;
-        flex-direction: column;
-        background-color: #4B974A;
-    }
-
-    .poluiçao-total {
+    .div-poluiçao {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 50% 50%;
+        margin: 20px;
     }
 
-    .texto-poluiçao {
-        font-size: 20px;
+    .retangulo-titulo {
+        font-size: 23px;
+        padding-top: 20px;
         font-weight: 600;
     }
 
-    .titulo-poluiçao {
-        font-size: 25px;
-        margin-top: 10px;
-        font-weight: 900;
-    }
-
-    .quadrado-grande {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+    .textos-poluiçao{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 20px 5px;
     }
 
     .disso {
         display: flex;
-        margin: 50px;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        flex-direction: row;
-    }
-
-    .bnt-menu {
-        font-size: 30px;
-        color: #fff;
+        margin: 0 50px;
     }
 }
 
@@ -381,15 +357,33 @@ footer {
 
     .bnt-menu {
         font-size: 35px;
+        color: #FFFF;
     }
 
     .ellipse {
         width: 80px;
         height: 80px;
+        padding: 15px 5px;
     }
 
-    .imagem-texto {
-        margin: 25px;
+    .titulo {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .botao {
+        width: 232px;
+        height: 40px;
+        background-color: #D9D9D9;
+        border: none;
+        padding: 15px 0;
+        border-radius: 15px;
+        cursor: pointer;
+        margin: 0 10px;
+    }
+
+    .texto-imagem {
+        margin: 20px;
     }
 
     .imagem-desmatamento {
@@ -397,88 +391,48 @@ footer {
         float: left;
     }
 
-    .titulo {
-        font-size: 50px;
-        font-weight: 600;
-        margin-left: 30px;
-    }
-
-    .primeiro-texto {
-        font-size: 40px;
-        font-weight: 900;
-        margin: 20px 40px;
-    }
-
-    .segundo-texto {
-        font-size: 50px;
-        font-weight: 800;
-        margin: 10px 0;
-    }
-
     .terceiro-texto {
-        text-align: center;
-        font-size: 30px;
+       text-align: center;
+       font-size: 32px;
     }
 
-
-
-    .seçao-poluiçao {
-        background-color: #4B974A;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .poluiçao-total {
+    .div-poluiçao {
         display: grid;
         grid-template-columns: 65% 35%;
-
     }
 
     .titulo-poluiçao {
-        font-size: 40px;
-        font-weight: 900;
-        margin-top: 20px;
+        font-size: 30px;
     }
 
     .texto-poluiçao {
-        font-size: 30px;
-        margin: 5px 15px;
-        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 10px;
+    }
+
+    .retangulo-titulo {
+        font-size: 24px;
+        font-weight: 500;
     }
 
     .quadrado-grande {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+        width: 80%;
 
-    .disso {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        justify-items: center;
-    }
-
-    .quadrado-grande {
-        width: 396px;
-        height: 752px;
         background-color: #D9D9D9;
         display: flex;
         flex-direction: column;
         border-radius: 20px;
         margin: auto;
-        margin-top: 25px;
     }
 
-    .botoes-poluiçao {
-        width: 315px;
-        height: 82px;
-        font-size: 25px;
-        background-color: #4BBC49;
-        color: #fff;
-        margin-top: 29px;
-        border-radius: 20px;
-        border: none;
-        cursor: pointer;
+    .textos-poluiçao{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 45px 30px;
     }
-
+    .disso {
+        display: flex;
+    }
 }
