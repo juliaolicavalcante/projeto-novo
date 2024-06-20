@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #76A76A;
+    font-family:  "Open Sans", sans-serif;
+}
+header {
+    background-color: #476241;
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
+.ellipse {
+    width: 55px;
+    height: 55px;
+    margin-right: 5px;
+    padding: 15px 0;
+}
+
+.botoes {
+    display: none;
+}
+
+.titulo {
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cabeçalho-menu {
+    position: relative;
+}
+
+.tudo-lista {
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.lista-menu-link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.udo-lista {
+    display: none;
+}
+
+.udo-lista:checked~.tudo-lista {
+    display: block;
+}
+
+.lista-menu {
+    background-color: #476241;
+    padding: 1em;
+}
+
+.bnt-menu {
+    color: #FFFF;
+    font-size: 22px;
+}
+
+.titulo-poluiçao {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 5px;
+    color: #000000;
+    text-align: center;
+}
+
+.texto-poluiçao {
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.botoes-todos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.poluiçao-botoes{
+    width: 100px;
+    padding: 8px 0;
+    background-color: #929292;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.tipos-poluiçao{
+    margin-top: 8px;
+    text-align: center;
+}
+
+.ar{
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.seçao-ar{
+background-color: #476241;
+}
+
+.texto-ar{
+    text-align: center;
+}
+
+.div-ar{
+    margin: 10px 0;
+}

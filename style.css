@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #8FCA82;
-    font-family: 'Courier New', Courier, monospace
+    background-color: #76A76A;
+    font-family:  "Open Sans", sans-serif;
 }
 
 header {
-    background-color: #679B5B;
+    background-color: #476241;
     display: grid;
     grid-template-columns: 5% 95%;
 }
@@ -67,7 +67,7 @@ header {
 }
 
 .lista-menu {
-    background-color: #679B5B;
+    background-color: #476241;
     padding: 1em;
 }
 
@@ -251,7 +251,7 @@ header {
 }
 
 .dicas-1{
-    background-image: url(/Rectangle\ 29.png);
+    background-image: url(/Rectangle\ 29\ \(1\).png);
 }
 
 .dicas-2{
