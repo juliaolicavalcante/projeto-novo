@@ -4,11 +4,12 @@
 }
 
 body {
-    background-color: #76A76A;
-    font-family:  "Open Sans", sans-serif;
+    background-color: #bebebe;
+    font-family: "Open Sans", sans-serif;
 }
+
 header {
-    background-color: #476241;
+    background-color: #184144;
     display: grid;
     grid-template-columns: 5% 95%;
 }
@@ -16,6 +17,7 @@ header {
 .cabeçalho {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .ellipse {
@@ -66,7 +68,7 @@ header {
 }
 
 .lista-menu {
-    background-color: #476241;
+    background-color: #184144;
     padding: 1em;
 }
 
@@ -76,7 +78,7 @@ header {
 }
 
 .titulo-poluiçao {
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     margin: 10px 5px;
     color: #000000;
@@ -86,13 +88,13 @@ header {
 .texto-poluiçao {
     color: #000000;
     font-weight: 500;
-    font-size: 17px;
-    margin: 0 10px;
+    font-size: 20px;
+    margin: 15px 10px;
     text-align: center;
     font-weight: 500;
 }
 
-.botoes-todos{
+.botoes-todos {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -100,35 +102,239 @@ header {
     flex-wrap: wrap;
 }
 
-.poluiçao-botoes{
+.poluiçao-botoes {
     width: 100px;
     padding: 8px 0;
     background-color: #929292;
     text-decoration: none;
     margin: 10px 0;
+    cursor: pointer;
+    font-size: 15px;
     border-radius: 20px;
     border: none;
 }
 
-.tipos-poluiçao{
-    margin-top: 8px;
+.tipos-poluiçao {
+    margin-top: 20px;
     text-align: center;
+    font-size: 30px;
 }
 
-.ar{
+
+.texto-ar {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.div-ar {
+    padding: 5px 10px;
+}
+
+.titulos {
     padding: 10px 0 0 0;
     text-align: center;
-    margin: 10px 0;
 }
 
-.seçao-ar{
-background-color: #476241;
-}
-
-.texto-ar{
+.textos {
     text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
 }
 
-.div-ar{
-    margin: 10px 0;
+.cinza {
+    background-color: #929292;
+    border-radius: 20px;
+    margin: 10px 20px;
+}
+
+.nav {
+    display: none;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1023px) {
+
+
+    .cabeçalho-menu {
+        display: grid;
+        grid-template-columns: 5% 60% 35%;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .ellipse {
+        width: 69px;
+        height: 69px;
+        padding: 20px 0px;
+    }
+
+    .titulo {
+        font-size: 23px;
+    }
+
+    .bnt-menu {
+        font-size: 30px;
+    }
+
+    .seçao-solo {
+        display: flex;
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        border-radius: 20px;
+    }
+
+    .cinza {
+        display: flex;
+        width: 90%;
+        height: 90%;
+        margin: 10px auto;
+        border-radius: 20px;
+
+    }
+
+    .titulos {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 0 7px;
+    }
+
+    .texto-poluiçao {
+        margin: 15px 70px;
+    }
+
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #184144;
+        align-items: center;
+        color: #fff;
+        padding: 0 1rem;
+    }
+
+    .logo a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav ul li {
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+
+    .nav ul li a {
+        transition: all ease .4s;
+    }
+
+    .nav ul li a:hover {
+        color: #bcd83e;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: grid;
+        grid-template-columns: 3% 55% 42%;
+    }
+
+    .botoes {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .bnt-menu {
+        font-size: 35px;
+        color: #FFFF;
+    }
+
+    .ellipse {
+        width: 80px;
+        height: 80px;
+        padding: 15px 5px;
+    }
+
+    .titulo {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .texto-poluiçao {
+        margin: 15px 70px;
+    }
+
+    .cinza {
+        display: flex;
+        width: 90%;
+        height: 90%;
+        margin: 10px auto;
+        border-radius: 20px;
+
+    }
+
+    .titulos {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 0 7px;
+    }
+
+
+    .poluiçao-botoes {
+        width: 130px;
+        padding: 8px 0;
+        background-color: #929292;
+        text-decoration: none;
+        margin: 10px 0;
+        cursor: pointer;
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #184144;
+        align-items: center;
+        color: #fff;
+        padding: 0 1rem;
+    }
+
+    .logo a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav ul li {
+        margin: 0 30px;
+        padding: 0 10px;
+    }
+
+    .nav ul li a {
+        transition: all ease .4s;
+    }
+
+    .nav ul li a:hover {
+        color: #bcd83e;
+    }
 }

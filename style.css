@@ -1,15 +1,17 @@
+@import url(/poluiçao.css);
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #76A76A;
-    font-family:  "Open Sans", sans-serif;
+    background-color: #D2D2D2;
+    font-family: "Open Sans", sans-serif;
 }
 
 header {
-    background-color: #476241;
+    background-color: #184144;
     display: grid;
     grid-template-columns: 5% 95%;
 }
@@ -17,6 +19,7 @@ header {
 .cabeçalho {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .ellipse {
@@ -24,10 +27,6 @@ header {
     height: 55px;
     margin-right: 5px;
     padding: 15px 0;
-}
-
-.botoes {
-    display: none;
 }
 
 .titulo {
@@ -67,7 +66,7 @@ header {
 }
 
 .lista-menu {
-    background-color: #476241;
+    background-color: #184144;
     padding: 1em;
 }
 
@@ -115,28 +114,26 @@ header {
 }
 
 .poluiçao-total {
-    background-color: #476241;
     text-align: center;
 }
 
 .titulo-poluiçao {
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     margin: 10px 5px;
-    color: #d6d6d6;
+    color: #000000;
 }
 
 .texto-poluiçao {
-    color: #d6d6d6;
+    color: #000000;
     font-weight: 500;
     font-size: 17px;
-    margin: 0 10px;
+    margin: 30px 10px;
 }
 
 .quadrado-grande {
     display: flex;
     flex-direction: column;
-    background-color: #D9D9D9;
     width: 279px;
     padding-bottom: 20px;
     margin: auto;
@@ -155,7 +152,7 @@ header {
 .botoes-poluiçao {
     width: 80%;
     height: 80px;
-    background-color: #4BBC49;
+    background-color: #0E7D85;
     color: #fff;
     margin-top: 29px;
     border-radius: 20px;
@@ -166,8 +163,8 @@ header {
 
 
 .botoes-poluiçao:hover {
-    background-color: #38a836;
-    color: #000000;
+    background-color: #0b4f53;
+    color: #a3a3a3;
     transition: 0.7s;
 }
 
@@ -179,18 +176,19 @@ header {
 }
 
 .retangulo-total {
-    background-color: #D9D9D9;
+    background-color: #A6A4A4;
     width: 250px;
     margin: auto;
     padding: 20px 0;
     border-radius: 30px;
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .retangulo-pequeno {
     width: 80%;
     height: 66px;
-    background-color: #4BBC49;
+    background-color: #0E7D85;
     font-size: 23px;
     color: #fff;
     border-radius: 20px;
@@ -220,23 +218,23 @@ header {
     border-radius: 20px;
 }
 
-.campanha-1{
+.campanha-1 {
     background-image: url(/Rectangle\ 33.png);
 }
 
-.retangulo-total a{
+.retangulo-total a {
     color: #FFFF;
     text-decoration: none;
 }
 
-.poluiçao-campanha{
+.poluiçao-campanha {
     width: 100%;
     height: 100%;
     display: grid;
     align-items: end;
 }
 
-.texto-campanha{
+.texto-campanha {
     font-size: 18px;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.26);
@@ -246,32 +244,66 @@ header {
 
 }
 
-.campanha-2{
+.campanha-2 {
     background-image: url(/Rectangle\ 31.png);
 }
 
-.dicas-1{
+.dicas-1 {
     background-image: url(/Rectangle\ 29\ \(1\).png);
 }
 
-.dicas-2{
+.dicas-2 {
     background-image: url(/Rectangle\ 82.png);
 }
 
-.relatos-1{
+.relatos-1 {
     background-image: url(/Rectangle\ 28.png);
 }
 
-.relatos-2{
+.relatos-2 {
     background-image: url(/Rectangle\ 36.png);
 }
 
-.noticia-1{
+.noticia-1 {
     background-image: url(/Rectangle\ 35.png);
 }
 
-.noticia-2{
+.noticia-2 {
     background-image: url(/Rectangle\ 32.png);
+}
+
+.quadrado-grande {
+    width: 80%;
+    margin-bottom: 15px;
+    background-color: #A6A4A4;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 15px auto;
+}
+
+.nav{
+    display: none;
+}
+
+footer{
+    background-color: #184144;
+    color: #FFFF;
+    padding: 3rem 0 3rem 8rem;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin:  0 30px ;
+}
+
+.criadora{
+    font-size: 20px;
 }
 @media screen and (min-width: 750px) and (max-width: 1023px) {
     .cabeçalho-menu {
@@ -287,14 +319,8 @@ header {
         gap: 10px;
     }
 
-    .botao {
-        width: 232px;
-        height: 40px;
-        background-color: #D9D9D9;
-        border: none;
-        padding: 15px 0;
-        border-radius: 15px;
-        cursor: pointer;
+    .titulo {
+        font-size: 23px;
     }
 
     .ellipse {
@@ -328,7 +354,7 @@ header {
         font-weight: 600;
     }
 
-    .textos-poluiçao{
+    .textos-poluiçao {
         text-align: center;
         font-size: 16px;
         font-weight: 600;
@@ -339,6 +365,47 @@ header {
         display: flex;
         flex-wrap: wrap;
         margin: 0 50px;
+    }
+    
+    .quadrado-grande {
+        width: 80%;
+        background-color: #A6A4A4;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #184144;
+        align-items: center;
+        color: #fff;
+        padding: 0 1rem;
+    }
+
+    .logo a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav ul li{
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+
+    .nav ul li a{
+        transition: all ease .4s;
+    }
+
+    .nav ul li a:hover{
+        color: #bcd83e;
     }
 }
 
@@ -371,29 +438,20 @@ header {
         margin-left: 0;
     }
 
-    .botao {
-        width: 232px;
-        height: 40px;
-        background-color: #D9D9D9;
-        border: none;
-        padding: 15px 0;
-        border-radius: 15px;
-        cursor: pointer;
-        margin: 0 10px;
-    }
 
     .texto-imagem {
         margin: 20px;
     }
 
     .imagem-desmatamento {
-        width: 45%;
-        float: left;
+        width: 32%;
+        display: flex;
+        align-items: center;
     }
 
     .terceiro-texto {
-       text-align: center;
-       font-size: 32px;
+        text-align: center;
+        font-size: 25px;
     }
 
     .div-poluiçao {
@@ -419,20 +477,55 @@ header {
     .quadrado-grande {
         width: 80%;
 
-        background-color: #D9D9D9;
+        background-color: #A6A4A4;
         display: flex;
         flex-direction: column;
         border-radius: 20px;
-        margin: auto;
+        margin: 20px auto;
     }
 
-    .textos-poluiçao{
+    .textos-poluiçao {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin: 45px 30px;
     }
+
     .disso {
         display: flex;
     }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: #184144;
+        align-items: center;
+        color: #fff;
+        padding: 0 1rem;
+    }
+
+    .logo a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav ul li{
+        margin: 0 30px;
+        padding: 0 10px;
+    }
+
+    .nav ul li a{
+        transition: all ease .4s;
+    }
+
+    .nav ul li a:hover{
+        color: #bcd83e;
+    }
+
+
 }
