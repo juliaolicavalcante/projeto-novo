@@ -145,6 +145,8 @@ body{
 header{
     background-color: #184144;
     color: #fff;
+    display: grid;
+    grid-template-columns: 5% 80% 15%;
 }
 
 .menu .menu-botao{
